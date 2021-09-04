@@ -156,6 +156,12 @@ namespace Mirage.Tests.Weaver
         }
 
         [Test]
+        public void CanUseCustomReadWriteForAbstractClassUsedInMessage()
+        {
+            IsSuccess();
+        }
+
+        [Test]
         public void CreatesForEnums()
         {
             IsSuccess();
